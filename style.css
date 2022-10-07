@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    height: 100vh;
+   
+}
+
+#container_nubank{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   height: 80%;
+   padding: 20px;
+}
+
+#div_nubank{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartao_nubank{
+    width: 73% ;
+    height:55% ;
+    box-shadow: 0px 0px 5px gainsboro;
+    border-radius: 15px;
+    background-image: linear-gradient(120deg,#9843CC,#7A1B83);
+    cursor: pointer;
+    border-right: 2px solid  rgb(179, 0, 179);
+    border-bottom: 2px solid  rgb(179, 0, 179) ;
+}
+
+.section_master{
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+    align-items:center ;
+  
+}
+
+.section_master img{
+    width: 83px;
+    margin: 15px;
+    
+}
+
+.section_chip{
+    margin: 10px 0px 45px 0px ;
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items:center ;
+    gap: 17px;
+}
+
+.chip{
+    width:50px ;
+    margin-left:45px;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 5px;
+}
+
+.sinal{
+    width: 25px;
+}
+
+
+.section_usuario{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+     width: 100%;
+     gap: 10px;
+}
+
+.section_usuario img{
+    width: 80px;
+    margin-left: 45px;
+}
+
+.section_usuario p{
+    color: white;
+    transform: translateY(-7px);
+    letter-spacing: 2px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 12pt;
+   
+    
+}
+
+
