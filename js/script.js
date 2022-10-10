@@ -17,7 +17,7 @@ function mostraCartao(){
     }
 
     function frenteCartao(){
-        cartao_nubank.style.transform="rotateY(0deg)"
+        cartao_nubank.style.transform="rotateY(0deg) "
         setTimeout(() => {
             cartao_nubank.scrollBy(-300,0)
         }, 500);
