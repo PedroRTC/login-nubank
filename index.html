@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nubank</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
 </head>
 <body>
     <main>
@@ -14,18 +15,69 @@
           <div id="div_nubank" >
 
             <div class="cartao_nubank">
-               <section class="section_master"><img src="img/master_logo.png" alt=""></section>
+              <!---------------------------- cartão frente inicio---------------------------------------------------->
+              <div class="cartFrente" id="cartao_div">
 
-               <section class="section_chip">
-                    <img src="img/chip_nubank.png" class="chip" alt=""> 
-                    <img src="img/sinal-nubank.png" class="sinal" alt="">
-               </section>
+                <section class="section_master"><img src="img/master_logo.png" alt=""></section>
+                <section class="section_chip">
+                     <img src="img/chip_nubank.png" class="chip" alt=""> 
+                     <img src="img/sinal-nubank.png" class="sinal" alt="">
+                </section>
+                <section class="section_usuario">
+                   <img src="img/logo_nubank.png" alt="">
+                   <p>FRANCILENE L SANTOS</p>
+                </section>
+ 
+              </div>
+              <!------------------------ cartão frente final --------------------------------------------------------->
 
-               <section class="section_usuario">
-                  <img src="img/logo_nubank.png" alt="">
-                  <p>FRANCILENE L SANTOS</p>
-               </section>
 
+
+
+               <!---------------------------- cartão verso inicio ---------------------------------------------------->
+              <div class="cartVerso" id="cartao_div">
+                <section class="topVerso">
+                  <p>Issued by Nubank under license by Mastercard International</p>
+                  <span>GEMALTO CWB U1149245D 0520 ICA 16570</span>
+                </section>
+                <section class="barraVerso"></section>
+
+
+                <section class="sectionVersoCentral">
+                  <div class="div01Central">
+                    <p>platinum</p>
+                    <img src="img/chip-verso.png" alt="">
+                  </div>
+
+                  <div class="div02Central" >
+                   <p><img src="img/mensageiro.png" alt=""><span>Está com duvida?<br>nosso app pode te ajudar.</span></p>
+                   <p><img src="img/sinal-de-interrogacao.png" alt=""><span>Fale com agente:<br>0800 591 2117</span></p>
+                  </div>
+
+                  <div class="div03Central" >
+                     <p>Outside Brazil<br>1 636 722 8881</p>
+                  </div>
+                </section>
+
+                <section class="sectionBottomVerso">
+
+                   <div class="inforBottomVerso">
+                    <p class="numerConta">5162 9292 6017 2716</p>
+                    <section class="sectionDataVerso">
+                      <span>MEMEBER<br>SINCE</span><p>02/21</p>
+                      <span>VALIO<br>THRU</span><p>02/29</p>
+                      <span>SECURITY<br>CODE</span><p>350</p>
+                    </section>
+                   </div>
+
+                   <div class="imgBottomVerso">
+                    <img src="img/cirrus.png" alt="">
+                   </div>
+                </section>
+               
+              </div>
+               <!---------------------------- cartão verso final ---------------------------------------------------->
+              
             </div>
 
           </div>
@@ -33,5 +85,7 @@
           <div id="div_nubank"></div>
         </section>
     </main>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
