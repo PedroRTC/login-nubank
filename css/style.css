@@ -7,6 +7,14 @@
     margin: 0;
     padding: 0;
 }
+
+
+body{
+    background-image: url("../img/fundo-body.png");
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -36,8 +44,8 @@ main{
 .cartao_nubank{
     display: flex;
     align-items: center;
-    width: 73% ;
-    height:55% ;
+    width: 345px ;
+    height:220px ;
     box-shadow: 0px 0px 5px gainsboro;
     border-radius: 15px;
     background-image: linear-gradient(120deg,#9843CC,#7A1B83);
@@ -45,7 +53,7 @@ main{
     overflow:hidden;
     scroll-snap-type: x mandatory;
     transition: all 2s;
-   
+    box-shadow: 0px 10px 10px gainsboro;
 }
 
 
@@ -66,33 +74,33 @@ main{
     display: flex;
     justify-content:flex-end;
     align-items:center ;
-  
 }
 
 .section_master img{
-    width: 83px;
-    margin: 15px;
+    width: 70px;
+    margin: 10px;
     
 }
 
 .section_chip{
-    margin: 10px 0px 45px 0px ;
     width: 100%;
     display: flex;
     justify-content:flex-start;
     align-items:center ;
-    gap: 17px;
+    gap: 13px;
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
 
 .chip{
-    width:50px ;
-    margin-left:45px;
+    width:45px ;
+    margin-left:40px;
     box-shadow: 0px 0px 3px black;
     border-radius: 5px;
 }
 
 .sinal{
-    width: 25px;
+    width: 18px;
 }
 
 
@@ -101,20 +109,20 @@ main{
     justify-content: flex-start;
     align-items: flex-end;
      width: 100%;
-     gap: 10px;
+     gap: 5px;
 }
 
 .section_usuario img{
-    width: 80px;
-    margin-left: 45px;
+    width: 60px;
+    margin-left: 38px;
 }
 
 .section_usuario p{
     color: white;
-    transform: translateY(-7px);
-    letter-spacing: 2px;
+    transform: translateY(-5px);
+    letter-spacing: 1px;
     font-family: 'Mulish', sans-serif;
-    font-size: 12pt;
+    font-size: 10pt;
    
     
 }
@@ -131,21 +139,18 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 85px;
-    height: 25px;
-    font-size: 9px;
+    gap: 60px;
+    height: 15px;
+    font-size: 6px;
     color: white;
     font-family: 'Titillium Web', sans-serif;
 
 }
 
-.topVerso p{
-    font-size: 8px;
-}
 
 .barraVerso{
   width: 100%;
-  height: 55px;
+  height: 50px;
  background-image: linear-gradient(45deg,#DDDDDD,aliceblue,#DDDDDD);
  
 }
@@ -153,9 +158,9 @@ main{
 
 .sectionVersoCentral{
   margin: auto;
-  margin-top: 15px;
+  margin-top: 7px;
   width: 95%;
-  height:100px ;
+  height:90px ;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -174,38 +179,38 @@ main{
 .div01Central p{
     padding:  0px 10px;
     font-family: 'Quicksand', sans-serif;
-    font-size: 12pt;
+    font-size: 11pt;
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
 
 .div01Central img{
-  width: 90px;
+  width: 80px;
 }
 
 
 .div02Central p{
     display: flex;
     align-items: center;
-    font-size: 8px;
+    font-size: 7px;
     font-family: 'Titillium Web', sans-serif;
-    gap: 5px;
-    margin-bottom: 10px;
+    gap: 3px;
+    margin-bottom: 5px;
 }
 
 .div02Central span{
     line-height: 10px;
-    letter-spacing: 1px;
+  
 }
 
 .div02Central img{
-    width: 20px;
+    width: 18px;
 }
 
 .div03Central p{
 display: flex;
 justify-content:center;
-  font-size: 7pt;
+  font-size: 6pt;
   font-family: 'Titillium Web', sans-serif;
   line-height: 10px;
 }
@@ -217,13 +222,13 @@ justify-content:center;
    align-content: center;
    color: white;
    width: 90%;
-   gap: 80px;
+   gap: 40px;
 }
 
 .sectionDataVerso{
     display: flex;
     align-items: center;
-    margin-top:15px ;
+    margin-top:12px ;
     transform: translateX(-8px);
     
 }
@@ -239,22 +244,20 @@ justify-content:center;
 
 .sectionDataVerso p{
     font-family: 'Quicksand', sans-serif;
-    font-size: 12pt;
+    font-size: 10pt;
 }
 
 
 
 .numerConta{
     font-family: 'Quicksand', sans-serif;
-    font-size: 16pt;
+    font-size: 12pt;
     letter-spacing: 3px;
 }
 
 
-.imgBottomVerso{
-transform: translateX(20px);
-}
+
 
 .imgBottomVerso img{
-    width: 90px;
+    width: 70px;
 }
