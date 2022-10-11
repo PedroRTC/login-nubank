@@ -1,9 +1,12 @@
 
 
 let cartao_nubank=document.querySelector(".cartao_nubank")
+let input_nome=document.querySelector("#input_nome")
+let nome_user=document.querySelector(".nome_user")
 
 
 function mostraCartao(){
+
     cartao_nubank.addEventListener("click",versoCartao)
 
     function versoCartao(){
@@ -28,3 +31,16 @@ function mostraCartao(){
 }
 
 mostraCartao()
+
+
+
+
+ function emuladorNubank(){
+
+    input_nome.addEventListener("input",()=>{
+        nome_user.innerHTML=input_nome.value.toUpperCase() 
+    })
+    
+ }
+
+ emuladorNubank()

@@ -37,6 +37,8 @@ label{
     font-weight: 600;
     
  }
+
+ 
 input:focus ~ label,
 input:valid ~label{
     transform:translateY(-45px);
