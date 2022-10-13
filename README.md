@@ -1,7 +1,8 @@
 # simulador-nubank
 * formulário para ver como fica seu cartão nubank
+* link do projeto na web: [simulador-nubank](https://simulador-nubank.netlify.app/)
 
-[![projeto-nubank](https://user-images.githubusercontent.com/110836621/195647299-f94e93c4-43a8-4af1-912d-3f1605466cb8.png)]()
+[![projeto-nubank](https://user-images.githubusercontent.com/110836621/195647299-f94e93c4-43a8-4af1-912d-3f1605466cb8.png)](https://simulador-nubank.netlify.app/)
 * Tecnologias utilizadas
 
 [![html](https://user-images.githubusercontent.com/110836621/190482986-2a2e37aa-8cb4-4b0f-bf8f-68a75d0dd04c.png)
