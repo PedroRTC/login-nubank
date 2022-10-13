@@ -1,2 +1,2 @@
-# login-nubank
- tela de login nunbank 
+# simulador-nubank
+* formulário para ver como fica seu cartão nubank
