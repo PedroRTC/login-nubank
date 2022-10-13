@@ -13,6 +13,7 @@ body{
     background-image: url("../img/fundo-body.png");
     background-size: cover;
     background-position: 50% 50%;
+    background-repeat: no-repeat;
 }
 
 html{
@@ -46,14 +47,13 @@ main{
     align-items: center;
     width: 350px ;
     height:215px ;
-    box-shadow: 0px 0px 5px gainsboro;
     border-radius: 15px;
     background-image: linear-gradient(120deg,#9843CC,#7A1B83);
     cursor: pointer;
     overflow:hidden;
     scroll-snap-type: x mandatory;
     transition: all 2s;
-    box-shadow: 0px 10px 10px gainsboro;
+    
 }
 
 
@@ -139,7 +139,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 45px;
     height: 15px;
     font-size: 6px;
     color: white;
@@ -222,7 +222,7 @@ justify-content:center;
    align-content: center;
    color: white;
    width: 90%;
-   gap: 45px;
+   gap: 40px;
 }
 
 .sectionDataVerso{
@@ -261,3 +261,32 @@ justify-content:center;
 .imgBottomVerso img{
     width: 70px;
 }
+
+@media screen and (max-width:850px){
+  #container_nubank{
+    display:block;
+    height: auto;
+  }
+
+  form{
+   border: 1px solid gainsboro;
+  }
+
+  #div_nubank{
+    margin: 15px 0px;
+  }
+
+  
+
+ 
+}
+
+@media screen and (max-width:400px){
+    .sectionBottomVerso{
+        gap: 20px;
+      }
+
+      .section_usuario p{
+        letter-spacing: 0px;
+      }
+  }
